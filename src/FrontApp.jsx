@@ -1,7 +1,8 @@
 import React from 'react';
+import { MainRouter } from './routers/MainRouter';
 
 export const FrontApp = () => {
   return (
-    <div>FrontApp</div>
+    <MainRouter />
   )
 }
